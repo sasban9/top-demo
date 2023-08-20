@@ -1,0 +1,60 @@
+* {
+    margin: 0;
+    padding: 0.4rem 1rem;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    /* color: white; */
+}
+
+body {
+    background: #333;
+}
+
+h1 {
+    background: red;
+    text-shadow: 0 0 4px #000;
+    /* color: white; */
+}
+
+h2 {
+    text-shadow: 0 0 4px #000;
+    background: orange;
+}
+
+h3 {
+    background: gold;
+}
+
+h4 {
+    background: lime;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color: white;
+}
+
+p,
+b,
+ol,
+li {
+    background: violet;
+    color: black;
+}
+
+ol li {
+    padding: 0;
+    margin-left: 2rem;
+    /* list-style-type: none; */
+}
+
+input {
+    width: 90%;
+    margin: 1rem 0.2rem;
+    height: 2rem;
+}
+
+input[type="submit"] {
+    background-color: gold;
+    font-weight: bold;
+    color: saddlebrown;
+}
